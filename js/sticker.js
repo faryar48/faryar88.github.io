@@ -1,2 +1,5 @@
 // <!-- call sticker js -->
-Sticker.init('.sticker');
+  $(document).ready(function() {
+      Sticker.init('.sticker');
+    
+  });

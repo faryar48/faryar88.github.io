@@ -3,12 +3,11 @@ width: 180px;
 height: 180px;
 }
 
-// add image
 .example-1 .sticker-img {
 background-image: url(logo_JavaScript.png);
 }
 
-// add color
+/*// add color
 .example-2 .sticker-img {
 background-color: #ff4a85;
 }
@@ -16,4 +15,4 @@ background-color: #ff4a85;
 // change shadow opacity
 .example-2 .sticker-shadow {
 opacity: 0.6;
-}
+}*/
