@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -172,6 +172,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    /*background-color: #262626; */
 }
 
 .navbar-default .navbar-brand {
@@ -197,6 +198,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
+    /*background-color: #262626; */
+
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -254,6 +257,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
+        /*background-color: #262626; */
+
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -265,14 +270,21 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg2.JPG);
-    background-position: center center;
-    background-repeat: none;
+    /*background-image: url(../img/header-bg2.JPG);*/
+    /*background-color: #262626; */
+    /*background-position: center center;*/
+    /*background-repeat: none;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    background-color: #222;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 header .intro-text {
     padding-top: 100px;
@@ -312,7 +324,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
@@ -348,11 +360,16 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: white;
 }
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item img { 
+    border-radius: 20px 20px 0px 0px; 
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -367,6 +384,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
+    border-radius: 20px 20px 0px 0px; 
     background: rgba(254,209,54,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -403,6 +421,7 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
+    border-radius: 0px 0px 20px 20px; 
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -431,6 +450,10 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
+}
+
+.timeline-heading { 
+    color: white;
 }
 
 .timeline:before {
@@ -493,6 +516,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
+    /*background-color: #262626;*/
     background-color: #fed136;
 }
 
@@ -651,9 +675,23 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#about { 
+    background-color: #591C36; 
+
+}
+
+section#services { 
+    background-color: #57417A; 
+}
+
+section#portfolio { 
+    background-color: #154538; 
+}
+
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -719,6 +757,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #222; 
 }
 
 footer span.copyright {
@@ -726,6 +765,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: white;
 }
 
 footer ul.quicklinks {
@@ -742,11 +782,11 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 60px;
     outline: 0;
     color: #fff;
     background-color: #222;
@@ -777,15 +817,19 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #591C36; 
 }
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
 }
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    color: white;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -802,6 +846,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    border-radius: 20px; 
 }
 
 .portfolio-modal .close-modal {
